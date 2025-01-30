@@ -596,6 +596,19 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"gLLPy":[function(require,module,exports,__globalThis) {
+var _modalJs = require("./js/modal.js");
+
+},{"./js/modal.js":"aHHgN"}],"aHHgN":[function(require,module,exports,__globalThis) {
+document.addEventListener('DOMContentLoaded', ()=>{
+    let btn1 = document.createElement("button");
+    btn1.innerText = "Atv\u0113rt logu";
+    btn1.classList.add("btn", "btn-danger");
+    btn1.onclick = ()=>{
+        window.open("https://www.mozilla.org/", "mozillaTab,width=500");
+    };
+    document.body.appendChild(btn1);
+    console.log(btn1);
+});
 
 },{}]},["1Fqy1","gLLPy"], "gLLPy", "parcelRequire94c2")
 
